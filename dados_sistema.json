@@ -1,0 +1,161 @@
+{
+  "usuarios": [
+    {
+      "id": 4400216988097594972,
+      "nome": "vitoria",
+      "email": "vi@gmail.com",
+      "senha": "123",
+      "tipo": "engenheiro",
+      "data_cadastro": "2026-01-16T18:34:39.707039"
+    },
+    {
+      "id": 3369168963961079507,
+      "nome": "alan",
+      "email": "alan@gmail.com",
+      "senha": "321",
+      "tipo": "gestor",
+      "data_cadastro": "2026-01-16T18:39:53.153208"
+    }
+  ],
+  "projetos": [
+    {
+      "id": -7592898487187064415,
+      "nome": "casa abc",
+      "descricao": "abc",
+      "gestor_id": 4400216988097594972,
+      "status": "ativo",
+      "data_criacao": "2026-01-16T18:35:58.453007",
+      "data_conclusao": null,
+      "gasto": 140000.0,
+      "lucro": 40000.0,
+      "prazo": "2026-06-15T00:00:00",
+      "responsavel_id": 4400216988097594972,
+      "materiais": {},
+      "coordenadas": [],
+      "matriz_planta": [],
+      "consumo_semanal": []
+    },
+    {
+      "id": -1931311103548076876,
+      "nome": "casa pio",
+      "descricao": "pio",
+      "gestor_id": 4400216988097594972,
+      "status": "ativo",
+      "data_criacao": "2026-01-16T18:39:14.469300",
+      "data_conclusao": null,
+      "gasto": 160000.0,
+      "lucro": 50000.0,
+      "prazo": "2026-07-18T00:00:00",
+      "responsavel_id": 4400216988097594972,
+      "materiais": {},
+      "coordenadas": [],
+      "matriz_planta": [],
+      "consumo_semanal": []
+    },
+    {
+      "id": -3786038789321664732,
+      "nome": "casa noel",
+      "descricao": "papai noel",
+      "gestor_id": 3369168963961079507,
+      "status": "ativo",
+      "data_criacao": "2026-01-16T18:41:28.889956",
+      "data_conclusao": null,
+      "gasto": 200000.0,
+      "lucro": 60000.0,
+      "prazo": "2026-10-11T00:00:00",
+      "responsavel_id": null,
+      "materiais": {
+        "tinta vermelha ": {
+          "preco": 100.0,
+          "estoque": 5.0,
+          "unidade": "5",
+          "categoria": "acabamento"
+        }
+      },
+      "coordenadas": [
+        {
+          "x": 15.0,
+          "y": 20.0,
+          "z": 21.0,
+          "descricao": "fachada"
+        }
+      ],
+      "matriz_planta": [
+        [
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          "f"
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          "."
+        ]
+      ],
+      "consumo_semanal": [
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          2.0
+        ]
+      ]
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 6846882824297437429,
+      "titulo": "alinhamento da csa ",
+      "descricao": "abc",
+      "responsavel_id": 4400216988097594972,
+      "projeto_id": -7592898487187064415,
+      "status": "concluida",
+      "data_criacao": "2026-01-16T18:37:24.676122",
+      "data_conclusao": "2026-01-16T18:37:54.464414",
+      "prazo": "2026-01-19T00:00:00",
+      "categoria": null
+    },
+    {
+      "id": 5923668720816309050,
+      "titulo": "marcar perimetro",
+      "descricao": "perimetro",
+      "responsavel_id": 4400216988097594972,
+      "projeto_id": -3786038789321664732,
+      "status": "pendente",
+      "data_criacao": "2026-01-16T18:42:45.901950",
+      "data_conclusao": null,
+      "prazo": "2026-01-19T00:00:00",
+      "categoria": null
+    }
+  ],
+  "projetos_concluidos_ids": []
+}
